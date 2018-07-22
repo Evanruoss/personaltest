@@ -1,4 +1,4 @@
 package anotherpkgvar
 
-var a = "Jenna"
-var b = "You're a strange kid"
+var A = "Jenna"
+var B = "You're a strange kid"
