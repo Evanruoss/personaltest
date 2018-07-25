@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/evanruoss/personaltest/anotherpkgtest/anotherpkgvar"
+	"./anotherpkgvar" //don't forget to capitalize for visibility
 )
 
 func main() {
 
-	fmt.Printf("%s, %s", anotherpkgvar.B, anotherpkgvar.A)
+	fmt.Printf("%s, %s!\n\nHow are you doing today?", anotherpkgvar.B, anotherpkgvar.A)
 
 }
